@@ -5,10 +5,10 @@ const PORT = 8080;
 
 // MySQL connection
 const connection = mysql.createConnection({
-  host: 'YOUR-RDS-ENDPOINT',
+  host: 'task-db.c70oeywy2z4b.ap-south-1.rds.amazonaws.com',
   user: 'admin',
-  password: 'yourpassword',
-  database: 'yourdatabase'
+  password: 'Vignesh9344',
+  database: 'task-db'
 });
 
 connection.connect(err => {
